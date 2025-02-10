@@ -9,9 +9,10 @@ Purchase Items Use Case (main flow of events):
 5. The user confirms the amount.
 6. The system displays the subtotal, tax due, and the grand total to the user.
 7. The user indicates that it is time to checkout.
-8. The system securely asks for credit card information.
-9. The user enters the private credit card information.
-10. The system processes the transaction and replies with a confirmation.
+8. User has to log in using username and password. the username and password must match if they don't then send them back to index.php
+9. The system securely asks for credit card information.
+10. The user enters the private credit card information.
+11. The system processes the transaction and replies with a confirmation.
 
 Alternative flow (invalid input):
 
